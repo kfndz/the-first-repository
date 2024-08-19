@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-login {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(#2d2056, #4d369b, #3c2d6d);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-login h1 {
+    color: #77ffc0;
+    font-size: 40px;
+}
+
+.right-login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #2d2060;
+    border-radius: 20px;
+    padding: 22px 22px;
+    max-width: 300px;
+    box-shadow: 0px 10px 40px #fffbfbcc;
+}
+
+.card-login h1 {
+    color: #fff;
+}
+
+.textfield {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+}
+
+.textfield input {
+    width: 100%;
+    border: none;
+    border-radius: 11px;
+    padding: 12px;
+
+    font-size: 11pt;
+
+}
+
+.button-login {
+    display: flex;
+    justify-content: center;
+    width: 35%;
+    border: none;
+    margin: 12px;
+    padding: 8px;
+    border-radius: 15px;
+    background: linear-gradient(45deg, #1dd1a1, #00cec9);
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background: linear-gradient(#17a589, #00a8a8);
+}
+
+.forgot-password {
+    color: #77ffc0;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
